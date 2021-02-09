@@ -1,7 +1,7 @@
 import ipapi
 
 print('What IP would you like to track')
-ip = str(raw_input('~ '))
+ip = str(input('~ '))
 
 country = ipapi.location(ip, None, 'country')
 region = ipapi.location(ip, None, 'region')
